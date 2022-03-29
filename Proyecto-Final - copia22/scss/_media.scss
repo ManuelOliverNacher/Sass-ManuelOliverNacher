@@ -1,0 +1,77 @@
+// Ajuste Nav
+@media(max-width: 374px) {
+    nav img{
+        height: 90px;
+    }
+}
+// Ajuste Home(About Us)
+
+@media (min-width:768px) and (max-width:853px){
+    #about-us img{
+        margin-left: 103px;
+        margin-top: 25px;
+        
+    }
+}
+@media (min-width:854px) and (max-width:900px){
+    #about-us img{
+        margin-left: 103px;
+        margin-top: 25px;
+        
+    }
+}
+
+//Footer
+@media  (min-width: 280px) and (max-width:425px)  {
+    #footer-email {
+        width: 250px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+    .footer-heading a {
+        font-size: 14px;
+    }   
+    }
+    @media screen and (max-width: 860px){
+        footer{
+            color: #fff;
+            margin: auto;
+            box-shadow: 0 0 3px #000;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            display: grid;
+    
+        }
+        .footer-container{
+            display: flex;
+            flex-direction: column;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 1em 0;
+            display: grid; 
+        } 
+        
+        .footer-heading a{
+            color: black;
+            text-decoration: none;
+            font-size: 24px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            
+        }
+    
+        footer h4{
+            font-size: 16px;
+            color: black;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            position:relative;
+        
+        }
+    
+        footer h4{
+            font-size: 20px;
+        }
+    }
